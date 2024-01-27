@@ -1,0 +1,85 @@
+body {
+  background-color: #959ba1;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+#bodytimer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#timer {
+  padding: 30px;
+  background-color: #192446;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px; 
+  border: 2px solid #2f2a1e;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(111, 48, 48, 0.4); 
+}
+
+h1 {
+  margin: 15px 0;
+  font-size: 24px; /* Adjusted font size */
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+#display-container {
+  background-color: #959ba1;
+  padding: 15px;
+  border-radius: 25px;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 2px 4px rgba(1, 0, 0, 0.4); 
+}
+
+#display {
+  font-size: 24px; 
+  height: 15px;
+  min-width: 20vw;
+  color: #192446;
+  font-weight: 500;
+  text-align: center;
+}
+
+#time {
+  font-size: 14px; 
+  width: 100px;
+  height: 30px;
+}
+
+input {
+  margin: 10px auto;
+  width: 80%; /* Adjusted width for responsiveness */
+  background-color: #192446;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+#button {
+  margin: 20px auto;
+  text-align: center;
+}
+
+button {
+  background-color: #192446;
+  color: white;
+  padding: 10px;
+  outline: none;
+  border: white 1px solid;
+  cursor: pointer; /* Added cursor pointer for buttons */
+  line-height: 15px;
+  border-radius: 20px;
+  margin-bottom: 6px;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
